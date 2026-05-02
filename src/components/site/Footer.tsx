@@ -11,7 +11,7 @@ export function Footer() {
             <span className="font-display text-2xl font-bold">{site.name}</span>
           </Link>
           <p className="mt-4 text-sm text-brand-foreground/70 leading-relaxed">
-            Doorstep repair & maintenance for every home appliance — by certified and Experience technicians, with genuine parts.
+            Premium doorstep repair & maintenance for every home appliance — by certified technicians, with genuine parts.
           </p>
           <div className="mt-5 inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1.5 text-xs font-medium">
             <ShieldCheck className="h-4 w-4 text-gold" /> 30-day service warranty
@@ -36,10 +36,9 @@ export function Footer() {
           <ul className="mt-4 space-y-2.5 text-sm">
             <li><Link to="/about" className="text-brand-foreground/80 hover:text-gold">About Us</Link></li>
             <li><Link to="/services" className="text-brand-foreground/80 hover:text-gold">All Services</Link></li>
-            <li><Link to="/pricing" className="text-brand-foreground/80 hover:text-gold">Pricing & AMC</Link></li>
+            <li><Link to="/pricing" className="text-brand-foreground/80 hover:text-gold">Pricing</Link></li>
             <li><Link to="/areas" className="text-brand-foreground/80 hover:text-gold">Service Areas</Link></li>
             <li><Link to="/booking" className="text-brand-foreground/80 hover:text-gold">Book Service</Link></li>
-            <li><Link to="/faq" className="text-brand-foreground/80 hover:text-gold">FAQ</Link></li>
             <li><Link to="/contact" className="text-brand-foreground/80 hover:text-gold">Contact</Link></li>
           </ul>
         </div>

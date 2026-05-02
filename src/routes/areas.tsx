@@ -9,10 +9,10 @@ import { site } from "@/lib/site";
 export const Route = createFileRoute("/areas")({
   head: () => ({
     meta: [
-      { title: "Service Areas — Doorstep Appliance Repair | Mahi Solutions" },
-      { name: "description", content: "Mahi Solutions covers neighborhoods across the metro with same-day doorstep appliance repair. Find your area and book a certified technician today." },
+      { title: "Service Areas — Nawada Doorstep Appliance Repair | Mahi Solutions" },
+      { name: "description", content: "Mahi Solutions covers Nawada City, Nawada Rural and the surrounding 5 km radius with same-day doorstep appliance repair." },
       { property: "og:title", content: "Service Areas — Mahi Solutions" },
-      { property: "og:description", content: "Doorstep appliance repair across the metro area." },
+      { property: "og:description", content: "Doorstep appliance repair across Nawada and 5 km surrounding area." },
     ],
   }),
   component: AreasPage,
@@ -29,8 +29,8 @@ function AreasPage() {
     <SiteLayout>
       <PageHero
         eyebrow="Service areas"
-        title="Doorstep appliance repair across the metro."
-        description="We bring certified technicians, genuine parts, and same-day service to neighborhoods throughout the city."
+        title="Doorstep appliance repair across Nawada."
+        description="We bring certified technicians, genuine parts, and same-day service to Nawada City, Nawada Rural, and the surrounding 5 km radius."
       >
         <Button asChild variant="hero" size="lg"><Link to="/booking"><Calendar className="h-5 w-5" /> Book Service</Link></Button>
         <Button asChild variant="whatsapp" size="lg"><a href={site.whatsappHref} target="_blank" rel="noreferrer"><MessageCircle className="h-5 w-5" /> WhatsApp</a></Button>

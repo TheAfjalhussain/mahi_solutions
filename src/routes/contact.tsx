@@ -1,4 +1,5 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+import { createFileRoute, Link } from '@tanstack/react-router'
+// import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
 import {
   ArrowRight,
@@ -450,7 +451,7 @@ function ContactPage() {
                 </div>
               </div>
 
-              <div className="overflow-hidden rounded-3xl border border-border bg-gradient-to-br from-primary via-primary/95 to-slate-900 p-6 text-primary-foreground shadow-elevated">
+              <div className="overflow-hidden rounded-3xl border border-border bg-gradient-to-br from-primary via-primary/95 to-slate-300 p-6 text-primary-foreground shadow-elevated">
                 <div className="inline-flex items-center gap-2 rounded-full bg-white/10 px-3 py-1 text-xs font-semibold">
                   <Zap className="h-3.5 w-3.5" />
                   Emergency support

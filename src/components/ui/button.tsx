@@ -9,8 +9,8 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
-        destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
+        default: "bg-primary text-primary-foreground shadow hover:bg-primary/30",
+        destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/30",
         outline:
           "border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground",
         secondary: "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
@@ -19,7 +19,7 @@ const buttonVariants = cva(
         hero: "bg-gradient-gold text-gold-foreground shadow-gold hover:brightness-105 hover:-translate-y-0.5 active:translate-y-0 transition-all font-semibold",
         tech: "bg-gradient-tech text-tech-foreground shadow-tech hover:brightness-110 hover:-translate-y-0.5 transition-all font-semibold",
         whatsapp: "bg-[oklch(0.65_0.18_150)] text-white shadow-card hover:brightness-110 transition-all font-semibold",
-        navy: "bg-brand text-brand-foreground shadow-card hover:bg-brand/90 transition-all font-semibold",
+        navy: "bg-brand text-brand-foreground shadow-card hover:bg-brand/30 transition-all font-semibold",
         soft: "bg-white/10 backdrop-blur text-white border border-white/20 hover:bg-white/20 transition-all font-medium",
       },
       size: {
